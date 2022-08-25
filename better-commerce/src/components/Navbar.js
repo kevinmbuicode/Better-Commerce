@@ -26,7 +26,7 @@ const NavBar = () => {
   };
 
   return (
-    <AppBar position="sticky" color='success' sx={{ marginBottom: 2}}>
+    <AppBar position="sticky" color='success' sx={{ marginBottom: 3}}>
       <Container maxWidth="xl">
         <Toolbar disableGutters>
           <StorefrontIcon sx={{ display: { xs: 'none', md: 'flex' }, mr: 1 }} />
